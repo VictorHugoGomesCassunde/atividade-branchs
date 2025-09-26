@@ -15,3 +15,13 @@ function mudarCorTexto() {
     const texto = document.getElementById("texto");
     texto.style.color = texto.style.color === 'red' ? 'black' : 'red';
 }
+function alternarVisibilidade() {
+    const paragrafo = document.getElementById("texto-toggle");
+
+    // Verifica se o parágrafo está visível ou escondido
+    if (paragrafo.style.display === "none") {
+        paragrafo.style.display = "block";  // Torna o parágrafo visível
+    } else {
+        paragrafo.style.display = "none";   // Torna o parágrafo invisível
+    }
+}
