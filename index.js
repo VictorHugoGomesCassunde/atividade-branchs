@@ -8,3 +8,6 @@ function mostrarDataHora() {
 function mudarTexto() {
     document.getElementById("texto").innerHTML = "O texto foi alterado! Agora, você pode interagir novamente.";
 }
+function mostrarAlerta() {
+    alert("Mensagem de Alerta: Você clicou no botão!");
+}
