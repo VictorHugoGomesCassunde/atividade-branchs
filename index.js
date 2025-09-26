@@ -5,3 +5,9 @@ function mostrarDataHora() {
     const dataHora = new Date();
     document.getElementById("data-hora").innerHTML = "Data e Hora Atual: " + dataHora.toLocaleString();
 }
+function mudarTexto() {
+    document.getElementById("texto").innerHTML = "O texto foi alterado! Agora, você pode interagir novamente.";
+}
+function mostrarAlerta() {
+    alert("Mensagem de Alerta: Você clicou no botão!");
+}
