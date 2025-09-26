@@ -11,3 +11,7 @@ function mudarTexto() {
 function mostrarAlerta() {
     alert("Mensagem de Alerta: Você clicou no botão!");
 }
+function mudarCorTexto() {
+    const texto = document.getElementById("texto");
+    texto.style.color = texto.style.color === 'red' ? 'black' : 'red';
+}
